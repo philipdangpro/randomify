@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Randomify.js</title>
+	<style>
+		body{
+			background-color: #34495e;
+			font:  1.2em sans-serif;
+			margin: 0px;
+			color: #ecf0f1;
+		}
+		h1{
+			text-align: center;
+			margin: 0 0 0px 0;
+		}
+		section{
+			width:800px;
+			margin: 0px auto;
+			background-color: #3498db;
+			padding: 10px 30px 25px 30px;
+		}
+		article{
+			height:34px;
+			text-align: center;
+			margin: 4px;
+		}
+
+		button{
+			width:400px;
+			height: 28px;
+			text-align: center;
+			display: inline-block;
+			border: 0px;
+			font:  bold 0.8em sans-serif;
+			margin: 0px;
+			color: #ecf0f1;
+			background-color: #34495e;
+			border-radius: 15px;
+			letter-spacing: 1px;
+		}
+	</style>
+</head>
+<body>
+
+
+
+
+<section class="container">
+	<h1>Test the randomify functions ! in the console</h1>
+	<article><button onclick="console.log(rndBool())">rndBool</button></article>
+	<article><button onclick="console.log(rnd(0,100))">rnd(min = 0,max = 100))</button></article>
+	<article><button onclick="console.log(rndFloat(5))">rndFloat(decimalLength = 5)</button></article>
+	<article><button onclick="console.log(rndLowercase())">rndLowercase</button></article>
+	<article><button onclick="console.log(rndUppercase())"	>rndUppercase</button></article>
+	<article><button onclick="console.log(rndDigitsArr())">rndDigitsArr</button></article>
+	<article><button onclick="console.log(rndSpecialChar())">rndSpecialChar</button></article>
+	<article><button onclick="console.log(rndChar())">rndChar</button></article>
+	<article><button onclick="console.log(rndHex())">rndHex</button></article>
+	<article><button onclick="console.log(rndStr(10))">rndStr(length = 10)</button></article>
+	<article><button onclick="console.log(rndRgb())">rndRgb</button></article>
+	<article><button onclick="console.log(rndRgba())">rndRgba</button></article>
+	<article><button onclick="console.log(rndHexColor())">rndHexColor</button></article>
+	<article><button onclick='console.log(rndItem(["lundi","mardi","mercredi","jeudi","vendredi","samedi","dimanche"]))'>rndItem(jours de la semaine)</button></article>
+	<article><button onclick='console.log(shuffle(["lundi","mardi","mercredi","jeudi","vendredi","samedi","dimanche"]))'>shuffle(jours de la semaine)</button></article>
+</section>		
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="randomify.js"></script>
+
+</body>
+</html>
+
+
+
+
+
