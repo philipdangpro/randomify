@@ -4,4 +4,4 @@ randomify.js is a library full of useful functions to generate random actions or
 Install
 
 
-The source code of this bot is available under the terms of the MIT license.
+The source code of this library is available under the terms of the MIT license.
