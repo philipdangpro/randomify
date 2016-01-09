@@ -9,10 +9,10 @@ Edit : At the beginning, randomify was only a JS file but later, I also develope
 
 2/ randomify.js is available at the following CDN :
   http://cdn.rawgit.com/philipdangpro/randomify/master/randomify.js
-  Just remember they are only available on MIT license. 
+  Just remember they are both only available under MIT license. 
 
 #License  
-Remember "randomify" is only available on MIT license.  
+
 Check the following URL : http://opensource.org/licenses/MIT
 Or read "LICENSE" in the current repository.
 
