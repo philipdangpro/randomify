@@ -1,0 +1,5 @@
+Further improvement ideas
+  minified versions of files
+  random dates or time
+  random n-dimensional arrays
+  add a namespace to prevent from effing collisions
