@@ -13,7 +13,9 @@ Edit : At the beginning, randomify was only a JS file but later, I also develope
 
 ##License  
 
+The source code of this library is available under the terms of the MIT license.
+
 Check the following URL : http://opensource.org/licenses/MIT
 Or read "LICENSE" in the current repository.
 
-The source code of this library is available under the terms of the MIT license.
+
